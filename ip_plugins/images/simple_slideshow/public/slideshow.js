@@ -11,7 +11,10 @@ $(document).ready(function() {
         rotate: true
 
     // use the slideshow plugin. It accepts its own configuration
-    }).slideshow();
+    }).slideshow({
+        // turn autoplay on
+        autoplay: true,
+    });
     
     $('.ipPluginSimpleSlideshowImages').show();
 
