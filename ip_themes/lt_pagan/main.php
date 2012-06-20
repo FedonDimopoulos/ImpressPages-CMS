@@ -37,6 +37,7 @@
                <?php echo $site->generateBlock('ipBreadcrumb'); ?>
             </div>
             <?php echo $site->generateBlock('main'); ?>
+            <?php echo $site->generateBlock('simpleSlideshow'); ?>
         </div>
         <div class="side grid_3 left">
             <nav><?php /* add class="collapse" to <nav> to hide second level by default */ ?>
